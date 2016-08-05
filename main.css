@@ -1,3 +1,13 @@
+html, button, input, select, textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: Helvetica, sans-serif; }
+
+.container {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto; }
+
 a:hover {
   opacity: 0.8; }
 a:active {
@@ -7,15 +17,20 @@ a:active {
   text-align: center;
   color: black; }
   #logo-container #logo {
-    font-family: Verdana, sans-serif;
-    font-weight: 100;
-    text-decoration: none;
-    font-style: italic;
-    color: black; }
+    margin-top: 0.5rem; }
+    #logo-container #logo a {
+      font-family: Verdana, sans-serif;
+      font-weight: 100;
+      text-decoration: none;
+      font-style: italic;
+      color: black; }
 
 .pure-menu {
   text-align: center; }
   .pure-menu a {
     color: black; }
+
+.firstContent, .secondContent {
+  background-color: green; }
 
 /*# sourceMappingURL=main.css.map */

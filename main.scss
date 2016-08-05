@@ -2,6 +2,18 @@ $font-stack:    Helvetica, sans-serif;
 $logo-font: Verdana, sans-serif;
 $primary-color: black;
 
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: $font-stack;
+}
+
+.container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a {
     &:hover {
         opacity: 0.8;
@@ -16,11 +28,14 @@ a {
     text-align: center;
     color: $primary-color;
     #logo {
-        font-family: $logo-font;
-        font-weight: 100;
-        text-decoration: none;
-        font-style: italic;
-        color: $primary-color;
+        margin-top: 0.5rem;
+        a {
+            font-family: $logo-font;
+            font-weight: 100;
+            text-decoration: none;
+            font-style: italic;
+            color: $primary-color;
+        }
     }
 }
 
@@ -31,4 +46,13 @@ a {
         color: $primary-color;
     }
 
+}
+
+.firstContent{
+    background-color: green;
+    
+}
+
+.secondContent {
+    background-color: blue;
 }
