@@ -2,6 +2,10 @@ $font-stack:    Helvetica, sans-serif;
 $logo-font: Verdana, sans-serif;
 $primary-color: black;
 
+html, body {
+    box-sizing: border-box; // a more sane default
+}
+
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
